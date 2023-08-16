@@ -16,6 +16,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void raffleNumber(View v) {
         TextView drawnNumber = findViewById(R.id.drawnNumber);
-        drawnNumber.setText(Double.toString(Math.random() * 10));
+        int max = 10;
+        int min = 1;
+        int range = max - min + 1;
+        drawnNumber.setText(Integer.toString(
+                (int) (Math.random() * range) + min
+        ));
     }
 }
