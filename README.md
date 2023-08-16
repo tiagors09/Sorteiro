@@ -4,9 +4,6 @@ Este é um aplicativo Android simples em Java que permite realizar sorteios de n
 
 ## Capturas de Tela
 
-[//]: # (![Captura de Tela 1]&#40;screenshot1.png&#41;)
-[//]: # (![Captura de Tela 2]&#40;screenshot2.png&#41;)
-
 ## Recursos
 
 - Geração de números aleatórios imparciais.
